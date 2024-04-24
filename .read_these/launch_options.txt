@@ -1,0 +1,18 @@
+case matters for all of these
+any unrecognised options will simply be ignored
+
+-noChatLogs
+    the bot will not log in game chat to console unless it is a command that the bot recognises and will attempt to execute
+
+-host=xxxxx  (default: localhost)
+    e.g. -host=hypixel.net
+    specified the host URL or IP which the bot will connect to
+
+-port=xxxxx  (default: 25565)
+    e.g. -port=25565
+    specifies the port which the bot will attempt to connect to the server via
+
+-logToGameChat
+    tells the bot to log its output to the in game chat as well as the console from which it was launched
+    this is almost always a bad idea, and should not be used unless you trust the server that the bot is connected to
+    the bot will log almost everything that it would notmally log to the console, so a lot of info may be leaked

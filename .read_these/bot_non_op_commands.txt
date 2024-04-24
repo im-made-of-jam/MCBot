@@ -1,0 +1,7 @@
+any unrecognised commands will be ignored by the bot with no warning or error message
+all prefixed by "-/bb_" e.g. the chat message "quit" will do nothing but "-/bb_quit" will cause the bot to exit
+
+these commands can be used by anyone in game chat regardless of whether or not they are op
+
+version:
+    the bot will state its version to both game chat and the console

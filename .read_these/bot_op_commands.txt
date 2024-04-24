@@ -1,0 +1,31 @@
+any unrecognised commands will be ignored by the bot with no warning or error message
+all prefixed by "-/bb_" e.g. the chat message "quit" will do nothing but "-/bb_quit" will cause the bot to exit
+
+these commands are only executed when an operator of the bot is the one that types them into game chat
+
+quit:
+    the bot will quit and the script will end
+
+kill:
+    the bot will attempt to run the /kill command, and then respawn when dead
+
+coords:
+    the bot will spit its current coordinates into chat
+
+tp_me:
+    the bot will attempt to teleport to the player that typed this command
+
+follow_me:
+    the bot will follow the player that says this
+
+follow_end:
+    the bot will no longer follow anyone, and will forget its last target
+
+follow_pause:
+    the bot will keep its follow target but will not follow until someone calls follow_resume
+
+follow_resume:
+    the bot will continue to follow whoever it last was following
+
+follow_target:
+    the bot will put its current follow target into both game chat and the node console
