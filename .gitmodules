@@ -1,0 +1,3 @@
+[submodule "mineflayer-4.20.1"]
+	path = mineflayer-4.20.1
+	url = https://github.com/im-made-of-jam/mineflayer-4.20.1.git

@@ -1,7 +1,7 @@
 const botLogString = require("./botTools/logString.js").logString;
 const isOp = require("./botTools/isOp").isOp;
 const followTick = require("./botTools/followTick.js").followTick;
-const mineflayer = require("mineflayer");
+const mineflayer = require("mineflayer"); // 4.20.1
 const { botQuit } = require("./botTools/botQuit.js");
 
 botOptions = {
